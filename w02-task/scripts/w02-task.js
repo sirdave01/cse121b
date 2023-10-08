@@ -24,7 +24,7 @@ const imageElement = document.querySelector("img"); //getting the image element 
 nameElement.innerHTML = `<strong>${fullName}</strong>`; //replacing the gotten name element on HTML with Script
 yearElement.textContent = currentYear; //replacing the gotten year element on HTML with script
 imageElement.setAttribute("src", `${profilePicture}`); //replacing the gotten img element on HTML with script
-imageElement.setAttribute("alt", `Profile Image of myself ${fullName}`); //alternative for the img element
+imageElement.setAttribute("alt", `Profile Image of myself in the profile ${fullName}`); //alternative for the img element
 
 
 /* Step 5 - Array */
